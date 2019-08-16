@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type = Application
+Comment = Face recognition
+Name = Horus
+Icon = /usr/share/pixmaps/horus.png
+Exec= /home/pi/horus/horus.sh
+Terminal=false
