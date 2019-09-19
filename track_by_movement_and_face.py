@@ -20,14 +20,14 @@ attempts = 0
 status = 400
 
 
-face_cascade = cv2.CascadeClassifier("/home/loriemichel/opencv-3.4.3/data/haarcascades/haarcascade_frontalface_alt2.xml")
+face_cascade = cv2.CascadeClassifier("/home/pi/opencv-3.4.3/data/haarcascades/haarcascade_frontalface_alt2.xml")
 #face_cascade = cv2.CascadeClassifier("/home/pi/opencv-3.4.3/data/haarcascades/haarcascade_upperbody.xml")
 #face_cascade = cv2.CascadeClassifier("/home/pi/cascadeH5.xml")
 #face_cascade = cv2.CascadeClassifier("/home/pi/models/upperbody_recognition_model.xml")
 #face_cascade = cv2.CascadeClassifier("/home/pi/opencv-3.4.3/data/haarcascades/haarcascade_profileface.xml")
 check=0
-videoPath = "/home/loriemichel/vim.mp4"
-#videoPath = "/home/loriemichel/teste.mp4"
+videoPath = "/home/pi/vim.mp4"
+#videoPath = "/home/pi/teste.mp4"
 cap = cv2.VideoCapture(videoPath)
 #cap = cv2.VideoCapture(0)
 
