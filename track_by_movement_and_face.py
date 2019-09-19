@@ -49,7 +49,8 @@ tempoIni = datetime.now()
 objectID=0
 #fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
 #fgbg = cv2.createBackgroundSubtractorKNN()
-fgbg = cv2.createBackgroundSubtractorMOG2()
+#fgbg = cv2.createBackgroundSubtractorMOG2()
+fgbg = cv2.createBackgroundSubtractorMOG2(history = 6, varThreshold = 56, detectShadows = False)
 #multiTracker = cv2.MultiTracker_create()
 
 
